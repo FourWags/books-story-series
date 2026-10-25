@@ -2,7 +2,7 @@
 
 **Petal Reader**, formerly Book’s Story Series, is an unofficial personal edition of [Acclorite/book-story](https://github.com/Acclorite/book-story), based on v1.8.0. GPL-3.0-only; upstream copyright and license notices are retained in the source archive.
 
-Current release: [1.8.0-petal.9 Preview · series editing, compact EPUB fix and Shiba themes](https://github.com/ClownChowder/books-story-series/releases/tag/v1.8.0-petal.9), published October 25, 2026.
+Current release: [1.8.0-petal.9 Preview · series editing, compact EPUB fix and Shiba themes](https://github.com/FourWags/books-story-series/releases/tag/v1.8.0-petal.9), published October 25, 2026.
 
 ## Library and reading
 
@@ -27,13 +27,13 @@ Dynamic color requires Android 12 / API 31 or later; older Android versions use 
 
 ## Release validation and limitations
 
-Current preview: 44 fresh synthetic host unit tests and 14 isolated Android 35 emulator instrumentation tests passed. Debug and minified builds passed. An in-place synthetic upgrade from 1.8.0-petal.8 and compact EPUB reading passed on the exact offered APK. Physical-device and real-edition handoff were not rerun for 1.8.0-petal.9. The earlier trusted Library handoff and authorization results apply to 1.8.0-petal.7 only. Providers require signature permission, matching caller signature and Library identity. Companion: [Petal Library](https://github.com/ClownChowder/petal-library).
+Current preview: 44 fresh synthetic host unit tests and 14 isolated Android 35 emulator instrumentation tests passed. Debug and minified builds passed. An in-place synthetic upgrade from 1.8.0-petal.8 and compact EPUB reading passed on the exact offered APK. Physical-device and real-edition handoff were not rerun for 1.8.0-petal.9. The earlier trusted Library handoff and authorization results apply to 1.8.0-petal.7 only. Providers require signature permission, matching caller signature and Library identity. Companion: [Petal Library](https://github.com/FourWags/petal-library).
 
 Reader has no INTERNET permission. Lint retains 90 warnings and 388 baseline-filtered missing-translation errors; this is not a clean-lint claim. Physical performance, battery and live assistive technology remain unqualified for this update. Handoff uses approximate whole-book percentages, so select matching editions. See attached CHECKS.txt and verification.json for artifact-bound results and limits. Earlier releases retain their own historical evidence.
 
 ## Downloads and source
 
-Download `books-story-series.apk` from [Releases](https://github.com/ClownChowder/books-story-series/releases). The complete corresponding source is attached as `books-story-series-source.zip`, including the upstream GPL license and build scripts. The automatic GitHub source archives contain this release-index repository, not the app source; use the explicitly attached source ZIP.
+Download `books-story-series.apk` from [Releases](https://github.com/FourWags/books-story-series/releases). The complete corresponding source is attached as `books-story-series-source.zip`, including the upstream GPL license and build scripts. The automatic GitHub source archives contain this release-index repository, not the app source; use the explicitly attached source ZIP.
 
 Install the APK on your Android device, allowing APK installation for the app you use to open it if prompted. For an existing personal-edition installation, install over it to retain its app data; package and signing identity are unchanged (new version code 22). Back up important library data before updating. Checksums are attached to the release as `SHA256SUMS`.
 
@@ -43,7 +43,7 @@ This is an emulator-tested personal debug build, not an official upstream releas
 
 Add this repository URL in Obtainium:
 
-`https://github.com/ClownChowder/books-story-series`
+`https://github.com/FourWags/books-story-series`
 
 APK filename filter: `^books-story-series\.apk$`
 
